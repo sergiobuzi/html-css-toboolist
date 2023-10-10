@@ -10,7 +10,7 @@ body{
     background-color: white;
     margin: 10%;
     margin-top: 5%;
-    padding-left: 3%;
+    padding-bottom: 50px;
 }
 
 /*logo e titolo*/
@@ -42,8 +42,10 @@ body{
 
 #buttons{
     margin: auto;
-    padding: 2%;
-    border-bottom: solid  #f6f8f9 1px ;
+    border-bottom: solid  #f6f8f9 3px ;
+    padding-bottom: 10px;
+    padding: 25px;
+    padding-left: 50px;
 
 }
 
@@ -64,4 +66,63 @@ body{
     padding: 5px;
     color: rgb(168, 165, 165);
     font-family:'Lato', sans-serif ;
+}
+
+/*main e le varie sezioni*/
+main{
+    padding-left: 50px;
+    font-family:'Lato', sans-serif ;
+
+}
+
+.principal{
+    margin-bottom:5px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.tasks{
+    margin-bottom: 20px;
+}
+
+.sub{
+    font-size: 20px;
+
+}
+
+.editorial{
+    background-color: rgb(90, 138, 211);
+    color: white;
+    border: rgb(90, 138, 211) solid 1px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.q1{
+    background-color: rgb(102, 52, 107);
+    color: white;
+    border: rgb(102, 52, 107) solid 1px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.recruiting{
+    background-color: rgb(78, 165, 92);
+    color: white;
+    border: rgb(78, 165, 92) solid 1px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.mobile{
+    background-color: rgb(199, 189, 97);
+    color: white;
+    border:  rgb(199, 189, 97) solid 1px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 5px
+
 }
