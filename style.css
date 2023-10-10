@@ -8,9 +8,9 @@ body{
 
 #container{
     background-color: white;
-    padding: 20%;
     margin: 10%;
     margin-top: 5%;
+    padding-left: 3%;
 }
 
 /*logo e titolo*/
@@ -36,4 +36,32 @@ body{
     line-height: 50px;
     vertical-align: middle;
     font-family: 'Lato', sans-serif;
+}
+
+/*add task e add section*/
+
+#buttons{
+    margin: auto;
+    padding: 2%;
+    border-bottom: solid  #f6f8f9 1px ;
+
+}
+
+#task_button{
+    background-color: rgb(15, 91, 204);
+    color: white;
+    border: rgb(15, 91, 204) solid 1px;
+    border-radius: 7px;
+    padding: 5px;
+    font-family:'Lato', sans-serif ;
+    margin-right: 5px
+}
+
+#section_button{
+    background-color: white;
+    border: 1px  rgb(168, 165, 165) solid;
+    border-radius: 7px;
+    padding: 5px;
+    color: rgb(168, 165, 165);
+    font-family:'Lato', sans-serif ;
 }
