@@ -87,6 +87,8 @@ main{
 
 .sub{
     font-size: 20px;
+    line-height: 50px;
+    vertical-align: middle;
 
 }
 
@@ -125,4 +127,9 @@ main{
     padding: 5px;
     margin-right: 5px
 
+}
+
+#img{
+    line-height: 50px;
+    vertical-align: middle;
 }
